@@ -26,15 +26,8 @@ instantly by highlighting text.
   Automatically saves your language, sound, and hotkey 
   preferences to 'settings.ini'.
 
-# --- 3. INSTALLATION ---
 
-1. Ensure Python 3.8+ is installed.
-2. Open terminal in the project folder and run:
-   pip install keyboard pyautogui pyperclip pystray pillow deep_translator
-3. Run the script as ADMINISTRATOR:
-   MasterTranslator.exe
-
-# --- 4. DEFAULT HOTKEYS ---
+# --- 3. DEFAULT HOTKEYS ---
 
 - [Ctrl + Alt + T] : Enable / Disable App
 - [Ctrl + Alt + E] : Learning Mode (Selected Text -> English)
@@ -44,13 +37,13 @@ instantly by highlighting text.
 - [Ctrl + Alt + 4] : Set Language to Japanese
 - [Ctrl + Alt + 5] : Set Language to French
 
-# --- 5. TRAY ICON STATUS ---
+# --- 4. TRAY ICON STATUS ---
 
 - BLUE ICON : App is Active and Ready.
 - GRAY ICON : App is Disabled.
 - RED ICON  : Connection Error (Check Internet).
 
-# --- 6. TROUBLESHOOTING ---
+# --- 5. TROUBLESHOOTING ---
 
 * APP NOT TYPING: Ensure you are running as Administrator.
 * HOTKEY CONFLICT: If keys don't work, use the "Edit Hotkeys" 
