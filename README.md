@@ -1,6 +1,4 @@
-# ============================================================
 #                     MASTER TRANSLATOR
-# ============================================================
 # A high-performance, system-wide translation utility.
 
 # --- 1. OVERVIEW ---
