@@ -1,38 +1,65 @@
-==================================================
-        MASTER TRANSLATOR - QUICK START GUIDE
-==================================================
+# ============================================================
+#                     MASTER TRANSLATOR
+# ============================================================
+# A high-performance, system-wide translation utility.
 
-Master Translator is a background utility that translates your 
-typing in real-time. Simply type, add the trigger dots, 
-and watch your text transform.
+# --- 1. OVERVIEW ---
+Master Translator is a productivity tool for Windows that allows
+you to translate text as you type or learn foreign languages 
+instantly by highlighting text.
 
---- HOW TO TRANSLATE ---
+# --- 2. KEY FEATURES ---
 
-1. GLOBAL TRANSLATION (Selects everything in the box):
-   Type your text and end it with TWO dots.
-   Example: This is a long paragraph..
-   (The script performs a 'Select All' and replaces everything.)
+* TURBO LEARNING MODE: 
+  Highlight text and press [Ctrl + Alt + E] for an instant 
+  English translation in the bottom-left corner.
 
---- HOTKEYS ---
+* TYPING TRANSLATION:
+  - Line Mode: End a sentence with "..." to replace it.
+  - Box Mode: End with ".." to translate the whole block.
 
-[Ctrl + Alt + T]        : Enable / Disable the Translator
-[Ctrl + Alt + 1-9]      : Switch Target Languages (Korean, French, etc.)
-[Ctrl + Alt + 0]        : Switch Target Language to Turkish
+* HOTKEY REMAPPER: 
+  Change shortcuts via a GUI menu in the system tray.
 
---- SYSTEM TRAY FEATURES ---
+* SMART FILTERS: 
+  Prevents translating URLs, file paths, and code accidentally.
 
-Right-click the Blue Icon in your taskbar to:
-- View the last successful translation.
-- Manually select a target language.
-- Toggle the "Success Sound" on or off.
-- Exit the application completely.
+* PERSISTENCE: 
+  Automatically saves your language, sound, and hotkey 
+  preferences to 'settings.ini'.
 
---- PRO TIPS ---
+# --- 3. INSTALLATION ---
 
-* INACTIVITY RESET: If you stop typing for 5 seconds, the 
-  internal memory wipes. This prevents old text from 
-  clashing with new sentences.
-* URL SAFETY: The script automatically ignores text 
-  containing "www." or ".com" to prevent breaking links.
-* EMERGENCY: Press 'Esc' at any time to clear the 
-  current typing buffer.
+1. Ensure Python 3.8+ is installed.
+2. Open terminal in the project folder and run:
+   pip install keyboard pyautogui pyperclip pystray pillow deep_translator
+3. Run the script as ADMINISTRATOR:
+   MasterTranslator.exe
+
+# --- 4. DEFAULT HOTKEYS ---
+
+- [Ctrl + Alt + T] : Enable / Disable App
+- [Ctrl + Alt + E] : Learning Mode (Selected Text -> English)
+- [Ctrl + Alt + 1] : Set Language to Korean
+- [Ctrl + Alt + 2] : Set Language to Chinese (Simplified)
+- [Ctrl + Alt + 3] : Set Language to Chinese (Traditional)
+- [Ctrl + Alt + 4] : Set Language to Japanese
+- [Ctrl + Alt + 5] : Set Language to French
+
+# --- 5. TRAY ICON STATUS ---
+
+- BLUE ICON : App is Active and Ready.
+- GRAY ICON : App is Disabled.
+- RED ICON  : Connection Error (Check Internet).
+
+# --- 6. TROUBLESHOOTING ---
+
+* APP NOT TYPING: Ensure you are running as Administrator.
+* HOTKEY CONFLICT: If keys don't work, use the "Edit Hotkeys" 
+  menu to choose a unique combination.
+* CLIPBOARD: The app temporarily uses your clipboard; 
+  avoid copying other items while a translation is processing.
+
+# ============================================================
+# Created by: jhyung
+# ============================================================
