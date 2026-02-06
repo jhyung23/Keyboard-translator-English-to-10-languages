@@ -8,12 +8,7 @@ and watch your text transform.
 
 --- HOW TO TRANSLATE ---
 
-1. LINE TRANSLATION (Selects current sentence):
-   Type your sentence and end it with THREE dots.
-   Example: Hello how are you... 
-   (The script deletes the dots and translates the line.)
-
-2. GLOBAL TRANSLATION (Selects everything in the box):
+1. GLOBAL TRANSLATION (Selects everything in the box):
    Type your text and end it with TWO dots.
    Example: This is a long paragraph..
    (The script performs a 'Select All' and replaces everything.)
