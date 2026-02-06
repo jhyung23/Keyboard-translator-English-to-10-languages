@@ -13,8 +13,7 @@ instantly by highlighting text.
   English translation in the bottom-left corner.
 
 * TYPING TRANSLATION:
-  - Line Mode: End a sentence with "..." to replace it.
-  - Box Mode: End with ".." to translate the whole block.
+  - Box Mode: End with ".." to translate the whole block. The script will Ctrl+a your current text and paste the translation!
 
 * HOTKEY REMAPPER: 
   Change shortcuts via a GUI menu in the system tray.
